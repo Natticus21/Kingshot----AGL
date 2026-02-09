@@ -1,172 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AGL | Kingshot Alliance Guide</title>
-
-  <style>
-    :root {
-  --bg-dark: #020617;
-  --bg-card: rgba(30,41,59,0.75);
-  --accent: #38bdf8;
-  --gold: #fbbf24;
-  --text: #e5e7eb;
-  --muted: #9ca3af;
-}
-
-* {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  font-family: 'Segoe UI', system-ui, sans-serif;
-  background: radial-gradient(circle at top, #0f172a, var(--bg-dark));
-  color: var(--text);
-}
-
-header {
-  padding: 60px 20px 40px;
-  text-align: center;
-  animation: fadeIn 1.2s ease;
-}
-
-header h1 {
-  font-size: 2.6rem;
-  margin-bottom: 10px;
-}
-
-header span {
-  color: var(--accent);
-}
-
-header p {
-  color: var(--muted);
-  max-width: 700px;
-  margin: auto;
-}
-
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-  padding: 20px;
-}
-
-nav button {
-  background: linear-gradient(145deg, #1e293b, #020617);
-  border: 1px solid #334155;
-  color: var(--text);
-  padding: 12px 18px;
-  border-radius: 12px;
-  cursor: pointer;
-  font-weight: 600;
-  transition: 0.3s;
-}
-
-nav button:hover {
-  background: var(--accent);
-  color: black;
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 10px 30px rgba(56,189,248,0.4);
-}
-
-section {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 25px;
-  background: var(--bg-card);
-  border-radius: 18px;
-  box-shadow: 0 0 40px rgba(0,0,0,0.4);
-  animation: slideUp 0.8s ease;
-}
-
-section h2 {
-  color: var(--accent);
-  margin-bottom: 10px;
-}
-
-
-section p {
-  color: var(--muted);
-}
-
-.info-block {
-  margin-top: 15px;
-  line-height: 1.6;
-  color: var(--text);
-}
-
-.dropdown {
-  margin-top: 20px;
-  border-radius: 14px;
-  overflow: hidden;
-  border: 1px solid #334155;
-}
-
-.dropdown-header {
-  padding: 15px 18px;
-  background: linear-gradient(145deg, #020617, #1e293b);
-  cursor: pointer;
-  font-weight: bold;
-  color: var(--gold);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.dropdown-header:hover {
-  background: #020617;
-}
-
-.dropdown-header span {
-  font-size: 1.4rem;
-  transition: transform 0.3s ease;
-}
-
-.dropdown.open .dropdown-header span {
-  transform: rotate(180deg);
-}
-
-.dropdown-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s ease;
-  background: rgba(2,6,23,0.9);
-}
-
-.dropdown-content div {
-  padding: 18px;
-  border-top: 1px solid #1e293b;
-  color: var(--text);
-}
-
-footer {
-  text-align: center;
-  padding: 40px 20px;
-  color: var(--muted);
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(-20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-  </style>
-
-  
-</head>
-<body>
-  <header>
+<header>
   <h1>🛡️ <span>Ally Grand Legion</span></h1>
   <p>AGL Alliance Guide • Built for brand-new players • Read before events</p>
 </header>
@@ -181,32 +13,40 @@ footer {
 </nav>
 
 <section id="swordland">
-<h2><span class="symbol">&#9876;</span> Swordland Showdown</h2>
-  <p>Swordland Showdown is a limited-time battlefield where alliances fight over buildings to earn points.</p>
+  <h2><span class="symbol">&#9876;</span> Swordland Showdown</h2>
+  <p>
+    Swordland Showdown is a limited-time battlefield where alliances fight over
+    buildings to earn points.
+  </p>
 
   <div class="dropdown">
     <div class="dropdown-header">🗡️ Phases of Battle <span>+</span></div>
     <div class="dropdown-content">
       <div>
-        <strong>Phase 1</strong><br>
-        Fight for basic buildings like Sanctums, Abbeys, Bell Tower, and Royal Stables.<br><br>
+        <strong>Phase 1</strong><br />
+        Fight for basic buildings like Sanctums, Abbeys, Bell Tower, and Royal
+        Stables.<br /><br />
 
-        <strong>Phase 2</strong><br>
-        Stronger buildings like Swordshrine, Hall of Reformation, and Mercenary Camp unlock.<br><br>
+        <strong>Phase 2</strong><br />
+        Stronger buildings like Swordshrine, Hall of Reformation, and Mercenary
+        Camp unlock.<br /><br />
 
-        <strong>Phase 3</strong><br>
+        <strong>Phase 3</strong><br />
         Undercellers appear randomly and give large point boosts.
       </div>
     </div>
   </div>
 
   <div class="dropdown">
-    <div class="dropdown-header">&#9876; Teleports, Heals, Zeroing & Resets <span>+</span></div>
+    <div class="dropdown-header">
+      &#9876; Teleports, Heals, Zeroing & Resets <span>+</span>
+    </div>
     <div class="dropdown-content">
       <div>
-        You will get a free Teleport every 12 minutes. Gem cost: first 4,000 / second 8,000 / third 12,000.<br>
-        Free heals occur hourly.<br><br>
-       <strong>If your troops are zeroed or close to:</strong><br>
+        You will get a free Teleport every 12 minutes. Gem cost: first 4,000 /
+        second 8,000 / third 12,000.<br />
+        Free heals occur hourly.<br /><br />
+        <strong>If your troops are zeroed or close to:</strong><br />
         Leave Swordland - Wait 12 minutes - Re-enter fully healed
       </div>
     </div>
@@ -216,13 +56,16 @@ footer {
     <div class="dropdown-header">🏰 Buildings Explained <span>+</span></div>
     <div class="dropdown-content">
       <div>
-        <strong>Swordshrine (Center)</strong>: Produces continuous Relic Points.<br><br>
-        <strong>Sanctums</strong>: Near Swordshrine, control both for extra points.<br><br>
-        <strong>Abbeys</strong>: Provide points over time.<br><br>
-        <strong>Hall of Reformation</strong>: Boosts combat power.<br><br>
-        <strong>Belltower</strong>: Speeds up building captures.<br><br>
-        <strong>Royal Stables</strong>: Shortens teleport cooldown by 50%.<br><br>
-        <strong>Mercenary Camp</strong>: Send mercenaries to hit enemy buildings.<br><br>
+        <strong>Swordshrine (Center)</strong>: Produces continuous Relic
+        Points.<br /><br />
+        <strong>Sanctums</strong>: Near Swordshrine, control both for extra
+        points.<br /><br />
+        <strong>Abbeys</strong>: Provide points over time.<br /><br />
+        <strong>Hall of Reformation</strong>: Boosts combat power.<br /><br />
+        <strong>Belltower</strong>: Speeds up building captures.<br /><br />
+        <strong>Royal Stables</strong>: Shortens teleport cooldown by 50%.<br /><br />
+        <strong>Mercenary Camp</strong>: Send mercenaries to hit enemy
+        buildings.<br /><br />
         <strong>Undercellers</strong>: Appear in waves for big point boosts.
       </div>
     </div>
@@ -230,14 +73,19 @@ footer {
 </section>
 
 <section id="caesar">
-<h2><span class="symbol">&#9889;</span> Caesar’s Fury</h2>
-  <p>A stamina-based PvE event where alliance coordination massively increases rewards.</p>
+  <h2><span class="symbol">&#9889;</span> Caesar’s Fury</h2>
+  <p>
+    A stamina-based PvE event where alliance coordination massively increases
+    rewards.
+  </p>
 
   <div class="dropdown">
     <div class="dropdown-header">🤝 Why Helps Matter <span>+</span></div>
     <div class="dropdown-content">
       <div>
-        Help Requests always at levels 10/20/30/40/50 unlock bonus multipliers, reduce stamina cost, and increase Gold shard drops for everyone in the alliance.
+        Help Requests always at levels 10/20/30/40/50 unlock bonus multipliers,
+        reduce stamina cost, and increase Gold shard drops for everyone in the
+        alliance.
       </div>
     </div>
   </div>
@@ -246,88 +94,128 @@ footer {
     <div class="dropdown-header">⚡ Stamina Required <span>+</span></div>
     <div class="dropdown-content">
       <div>
-        With helps: 450 stamina to battle all 50 levels, 750 stamina to locate all 50.<br><br>
-        Diana’s expedition skill reduces stamina usage by 10–20%. Total typical completion ~1,200 stamina.
+        With helps: 450 stamina to battle all 50 levels, 750 stamina to locate
+        all 50.<br /><br />
+        Diana’s expedition skill reduces stamina usage by 10–20%. Total typical
+        completion ~1,200 stamina.
       </div>
     </div>
   </div>
 </section>
 
 <section id="mystic">
-<h2><span class="symbol">&#128309;</span> Mystic Trials</h2>
-  <p>PvE challenges testing troop ratios and hero synergy instead of overall power, giving everyone chances to gain equal rewards.</p>
+  <h2><span class="symbol">&#128309;</span> Mystic Trials</h2>
+  <p>
+    PvE challenges testing troop ratios and hero synergy instead of overall
+    power, giving everyone chances to gain equal rewards.
+  </p>
 
   <div class="dropdown">
     <div class="dropdown-header">🛡️ Best Troop Ratios <span>+</span></div>
     <div class="dropdown-content">
       <div>
-        <strong>Coliseum</strong>: Heroes + Gear <br> 50% Infantry, 10% Cavalry, 40% Archers<br><br>
-        <strong>Forest of Life</strong>: Pets + Combat Skills <br> 50% Infantry, 15% Cavalry, 35% Archers<br><br>
-        <strong>Crystal Cave</strong>: Governor Charm <br> 60% Infantry, 20% Cavalry, 20% Archers<br><br>
-        <strong>Knowledge Nexus</strong>: Academy + War Academy <br> 50% Infantry, 20% Cavalry, 30% Archers<br><br>
-        <strong>Molten Fort</strong>: Governor Gear <br> 60% Infantry, 15% Cavalry, 25% Archers<br><br>
-        <strong>Radiant Spire</strong>: All Stats <br> 50% Infantry, 15% Cavalry, 35% Archers
+        <strong>Coliseum</strong>: Heroes + Gear <br />
+        50% Infantry, 10% Cavalry, 40% Archers<br /><br />
+        <strong>Forest of Life</strong>: Pets + Combat Skills <br />
+        50% Infantry, 15% Cavalry, 35% Archers<br /><br />
+        <strong>Crystal Cave</strong>: Governor Charm <br />
+        60% Infantry, 20% Cavalry, 20% Archers<br /><br />
+        <strong>Knowledge Nexus</strong>: Academy + War Academy <br />
+        50% Infantry, 20% Cavalry, 30% Archers<br /><br />
+        <strong>Molten Fort</strong>: Governor Gear <br />
+        60% Infantry, 15% Cavalry, 25% Archers<br /><br />
+        <strong>Radiant Spire</strong>: All Stats <br />
+        50% Infantry, 15% Cavalry, 35% Archers
       </div>
     </div>
   </div>
 </section>
 
 <section id="heroes">
-<h2><span class="symbol">&#127993;</span> Hero Priority</h2>
-  <p>Build these heroes only until you have maxed their skills (tier 4). Upgrading others dilutes progress. ~465 shards required per hero to reach tier 4.</p>
+  <h2><span class="symbol">&#127993;</span> Hero Priority</h2>
+  <p>
+    Build these heroes only until you have maxed their skills (tier 4).
+    Upgrading others dilutes progress. ~465 shards required per hero to reach
+    tier 4.
+  </p>
 
   <div class="dropdown">
     <div class="dropdown-header">🟧 Best Core Heroes <span>+</span></div>
     <div class="dropdown-content">
       <div>
-        <strong>Attack Rally Starters</strong>: <br>Petra, Marlin, Alcar<br><br>
-        <strong>Garrison Heroes</strong>: <br>Alcar, Petra, Howard, Gordon<br><br>
-        <strong>Joiner Heroes</strong>: <br>Chenko, Amane, Yeonwoo
+        <strong>Attack Rally Starters</strong>: <br />Petra, Marlin, Alcar<br /><br />
+        <strong>Garrison Heroes</strong>: <br />Alcar, Petra, Howard, Gordon<br /><br />
+        <strong>Joiner Heroes</strong>: <br />Chenko, Amane, Yeonwoo
       </div>
     </div>
   </div>
 </section>
 
 <section id="kvk">
-<h2><span class="symbol">&#128737;</span> KvK</h2>
-  <p>Multi-phase kingdom event where preparation matters more than fighting. Save your resources for this one and don't fall into the trap of using them before KvK</p>
+  <h2><span class="symbol">&#128737;</span> KvK</h2>
+  <p>
+    Multi-phase kingdom event where preparation matters more than fighting. Save
+    your resources for this one and don't fall into the trap of using them
+    before KvK
+  </p>
 
   <div class="dropdown">
     <div class="dropdown-header">🗺️ KvK Phases <span>+</span></div>
     <div class="dropdown-content">
       <div>
-        <strong>Matchmaking Phase</strong>: <br>System matches kingdoms with similar power.<br><br>
+        <strong>Matchmaking Phase</strong>: <br />System matches kingdoms with
+        similar power.<br /><br />
 
-        <strong>Preparation Phase</strong>: <br>Complete daily tasks for points and kingdom-wide rewards.<br><br>
+        <strong>Preparation Phase</strong>: <br />Complete daily tasks for
+        points and kingdom-wide rewards.<br /><br />
 
-        <strong>Battle Phase</strong>: <br>Losing kingdom defends, winning kingdom attacks (10:00–22:00 UTC).<br><br>
+        <strong>Battle Phase</strong>: <br />Losing kingdom defends, winning
+        kingdom attacks (10:00–22:00 UTC).<br /><br />
 
-        <strong>Field Triage Phase</strong>: <br>Rescue lost troops (default 30%, up to 90% with Medical Satchels + Rescue Orders).
+        <strong>Field Triage Phase</strong>: <br />Rescue lost troops (default
+        30%, up to 90% with Medical Satchels + Rescue Orders).
       </div>
     </div>
   </div>
 
   <div class="dropdown">
-    <div class="dropdown-header">🥊 KvK Daily Resource Requirements <span>+</span></div>
+    <div class="dropdown-header">
+      🥊 KvK Daily Resource Requirements <span>+</span>
+    </div>
     <div class="dropdown-content">
       <div>
-        Governor Charms <br> Governor Gear <br> Speed Ups <br> Intel Missions <br> True Gold <br> Gold Dust <br> Hero Roulette <br> Hero Shards <br> Pet Advancement Levels <br> Pet Taming Marks <br> Forgehammers <br> Hero Widgets <br> Mithril
+        Governor Charms <br />
+        Governor Gear <br />
+        Speed Ups <br />
+        Intel Missions <br />
+        True Gold <br />
+        Gold Dust <br />
+        Hero Roulette <br />
+        Hero Shards <br />
+        Pet Advancement Levels <br />
+        Pet Taming Marks <br />
+        Forgehammers <br />
+        Hero Widgets <br />
+        Mithril
       </div>
     </div>
   </div>
 </section>
 
 <section id="bear">
-<h2><span class="symbol">&#128062;</span> Bear Hunt</h2>
+  <h2><span class="symbol">&#128062;</span> Bear Hunt</h2>
   <p>PvE damage race against a bear boss. Lethality is key.</p>
 
   <div class="dropdown">
     <div class="dropdown-header">🧮 Best Ratio <span>+</span></div>
     <div class="dropdown-content">
       <div>
-        <strong>Lead Heroes</strong>: Your 3 strongest heroes<br><br>
-        <strong>Joiner Heroes</strong>: <br>Chenko (+25% damage), <br> madeus (+25% damage), <br>Yeonwoo (+25% lethality at star 4), <br>Amane (+25% all squad attack)<br><br>
-        <strong>Troop Layout</strong>: <br>10% Infantry + 10% Cavalry + 80% Archers <br>(Archers deal most damage)
+        <strong>Lead Heroes</strong>: Your 3 strongest heroes<br /><br />
+        <strong>Joiner Heroes</strong>: <br />Chenko (+25% damage), <br />
+        madeus (+25% damage), <br />Yeonwoo (+25% lethality at star 4),
+        <br />Amane (+25% all squad attack)<br /><br />
+        <strong>Troop Layout</strong>: <br />10% Infantry + 10% Cavalry + 80%
+        Archers <br />(Archers deal most damage)
       </div>
     </div>
   </div>
@@ -336,33 +224,3 @@ footer {
 <footer>
   <p>AGL • Updated by R4 • Ask if unsure</p>
 </footer>
-
-  <script>
-    function go(id) {
-  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
-}
-
-document.querySelectorAll(".dropdown-header").forEach(header => {
-  header.addEventListener("click", () => {
-    const dropdown = header.parentElement;
-    const content = dropdown.querySelector(".dropdown-content");
-    const icon = header.querySelector("span");
-
-    const isOpen = dropdown.classList.contains("open");
-
-    document.querySelectorAll(".dropdown").forEach(d => {
-      d.classList.remove("open");
-      d.querySelector(".dropdown-content").style.maxHeight = null;
-      d.querySelector(".dropdown-header span").textContent = "+";
-    });
-
-    if (!isOpen) {
-      dropdown.classList.add("open");
-      content.style.maxHeight = content.scrollHeight + "px";
-      icon.textContent = "–";
-    }
-  });
-});
-  </script>
-</body>
-</html>
